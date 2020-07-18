@@ -493,7 +493,7 @@ i.fa-comment {
 }
 
 .mfp-close-btn-in .mfp-close {
-    color: #fff;
+    color: rgb(0, 0, 0);
     border: 1px solid #fff;
     position: relative;
     left: 50%;
@@ -3753,7 +3753,7 @@ input[type=number]::-webkit-outer-spin-button {
         width: 100% !important;
     }
     .mfp-close-btn-in .mfp-close {
-        color: #fff;
+        color: rgb(0, 0, 0);
         border: 1px solid #fff;
         position: relative;
         left: 50%;

@@ -14,7 +14,7 @@
 
     <!-- Open Graph data -->
     <!--            <meta property="fb:app_id" content="756662054734253" />-->
-    <meta property="og:title" content="<?php echo $row ['fname']; ?>&nbsp;<?php echo $row ['lname']; ?>" />
+    <meta property="og:title" content="name" />
     <meta property="og:type" content="article" />
     <meta property="og:site_name" content="E-BizCard" />
 
@@ -452,7 +452,7 @@
                         <div class="row">
                             <div class="contact-social col-md-12 col-xs-pull">
                                 <div class="contact-details col-md-2 col-xs-3 col-md-push-3 col-xs-push-3">
-                                    <a href="tel:8111937760" id="call_me">
+                                    <a href="tel:1234567891" id="call_me">
                                         <i class="fa fa-phone"></i>
                                         <span class="">Call Me</span>
                                     </a>
@@ -464,9 +464,9 @@
                                     </a>
                                 </div>
                                 <div class="contact-details col-md-2 col-xs-3 col-md-push-3 col-xs-push-3">
-                                    <a href="https://api.whatsapp.com/send?phone=91811193770" target="_blank" rel="noreferrer" id="whatsapp">
+                                    <a href="https://www.whatsapp.com" id="whatsapp">
                                         <i class="fa fa-whatsapp"></i>
-                                        <!--+91 98196 62266-->
+
                                         <span>Whatsapp</span>
                                     </a>
                                 </div>
@@ -477,56 +477,33 @@
                     <div class="profile-social-media">
                     </div>
 
-                    <div class="contact-details-box mb-contact" style="margin-left: auto;margin-right: auto">
+                    <div class="contact-details-box">
                         <div class="row">
-                            <div class="col-md-12">
-                                <div class="contact-social">
-
-                                    <div class="mb-contact-box contact-details col-md-2 col-sm-2 col-xs-3">
-                                        <a href="https://www.facebook.com/<?php echo $row ['facebook']; ?>" target="_blank" rel="noreferrer" id="whatsapp">
-                                            <i class="fa fa-facebook"></i>
-                                            <!--+91 98196 62266-->
-                                            <span>Facebook</span>
-                                        </a>
-                                    </div>
-
-                                    <div class="mb-contact-box contact-details col-md-2 col-sm-2 col-xs-3">
-                                        <a href="https://www.instagram.com/<?php echo $row ['instagram']; ?>" target="_blank" rel="noreferrer" id="whatsapp">
-                                            <i class="fa fa-instagram"></i>
-                                            <!--+91 98196 62266-->
-                                            <span>Instagram</span>
-                                        </a>
-                                    </div>
-
-
-                                    <div class="mb-contact-box contact-details col-md-2 col-sm-2 col-xs-3">
-                                        <a href="https://www.youtube.com/channel/<?php echo $row ['youtube']; ?>" target="_blank" rel="noreferrer" id="whatsapp">
-                                            <i class="fa fa-youtube-play"></i>
-                                            <!--+91 98196 62266-->
-                                            <span>Youtube</span>
-                                        </a>
-                                    </div>
-
-
+                            <div class="contact-social col-md-12 col-xs-pull">
+                                <div class="contact-details col-md-2 col-xs-3 col-md-push-3 col-xs-push-3">
+                                    <a href="https://www.instagram.com" id="call_me">
+                                        <i class="fa fa-instagram"></i>
+                                        <span class="">instagram</span>
+                                    </a>
                                 </div>
+                                <div class="contact-details col-md-2 col-xs-3 col-md-push-3 col-xs-push-3">
+                                    <a href="https://www.facebook.com" id="email">
+                                        <i class="fa fa-facebook"></i>
+                                        <span class="">facebook</span>
+                                    </a>
+                                </div>
+                                <div class="contact-details col-md-2 col-xs-3 col-md-push-3 col-xs-push-3">
+                                    <a href="https://www.youtube.com" id="whatsapp">
+                                        <i class="fa fa-youtube-play"></i>
 
+                                        <span>youtube</span>
+                                    </a>
+                                </div>
                             </div>
-
-
                         </div>
                     </div>
-                    <center>
-                        <div style="width: 60%;padding-top: 30px;">
-                            <a href="#paid-content" class="scroll" style="color: white;padding-top: 30px;"> <span> Akshya Nagar 1st Block 1st Cross, Rammurthy nagar, Bangalore</span></a>
-                        </div>
-                    </center>
-                    <div id="profile-btn-box">
-                        <div id="button-popups">
-                            <a href="#save-me-popup" data-effect="mfp-3d-unfold">Share<i class="fa fa-share"></i></a>
-                            <a href="#scan-qr-popup" data-effect="mfp-3d-unfold" class="text-align: right;">Gallery<i class="fa fa-photo"></i></a>
 
-                        </div>
-                    </div>
+
                 </div>
 
 
@@ -550,15 +527,17 @@
     <div id="mobile-bottom-fixed" class="visible-xs">
         <div class="container-fluid">
             <div class="row">
+
                 <div class="col-xs-3 p-0">
-                    <a href="#mb-social-share-popup" data-effect="mfp-3d-unfold">
-                        <i class="fa fa-share-alt"></i>
-                        <span>Share Card</span></a>
+                    <a href="#save-me-popup-about" data-effect="mfp-3d-unfold">
+                        <i class="fa fa-user"></i>
+                        <span>About Me</span>
+                    </a>
                 </div>
                 <div class="col-xs-3 p-0">
-                    <a style="color: grey;" class="bordered" href="#save-me-popup-about" data-effect="mfp-3d-unfold">
-                        <i class="fa fa-user"></i>
-                        <span>About Us</span>
+                    <a style="color: grey;" class="bordered" href="#save-me-popup-services" data-effect="mfp-3d-unfold">
+                        <i class="fa fa-hand-o-up"></i>
+                        <span>Services</span>
                     </a>
                 </div>
                 <div class="col-xs-3 p-0">
@@ -568,11 +547,11 @@
                     </a>
                 </div>
                 <div class="col-xs-3 p-0">
-                    <a style="color: grey;" class="bordered" href="#save-me-popup-services" data-effect="mfp-3d-unfold">
-                        <i class="fa fa-hand-o-up"></i>
-                        <span>Services</span>
-                    </a>
+                    <a style="color: grey;" class="bordered" href="#mb-social-share-popup" data-effect="mfp-3d-unfold">
+                        <i class="fa fa-share-alt"></i>
+                        <span>Share Card</span></a>
                 </div>
+
             </div>
         </div>
     </div>
@@ -582,7 +561,7 @@
 <div id="save-me-popup-about" class="white-popup mfp-with-anim mfp-hide">
     <p class="popup-title"><i class="mdi mdi-contact-phone"></i>&nbsp;&nbsp;About</p>
     <div class="popup-content">
-        <p class="save-me-title">About Us</p>
+        <p class="save-me-title">About me</p>
         <div class="row">
             <div class="col-md-1"></div>
             <div class="col-md-3">
@@ -593,19 +572,33 @@
                         <span class="text-bold">We specialize in wedding photography, corporate, family and senior portraits, often traveling to your destination to capture the perfect moment in the perfect place. From the shores here in Lake Geneva to the beaches of Lake Michigan in Milwaukee and Chicago and beyond. We will be there with you every step of the way to guarantee your special moments are captured for all time.</span>
                     </div>
 
+
                 </div>
             </div>
-            <div class="col-md-2"></div>
+            <p class="save-me-title">Address</p>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-3">
+                </div>
+                <div class="col-md-6">
+                    <div class="qr-code-steps" style="text-align: center;">
+                        <div class="qr-code-step-box">
+                            <span class="text-bold">Akshya Nagar 1st Block 1st Cross, Rammurthy nagar, Bangalore</span>
+                        </div>
+
+
+
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
+
+
         </div>
     </div>
-
-
-</div>
-</div>
 </div>
 
 <!-- Modal -->
-
 
 
 <!--section-->
@@ -621,13 +614,13 @@
             <div class="col-md-6">
                 <div class="qr-code-steps">
                     <div class="qr-code-step-box">
-                        <span class="text-bold">Step : 1</span>Download this <a href="<?php echo $row[" vcf "]; ?>">VCF File</a>
+                        <span class="text-bold">Corporate photography</span>
                     </div>
                     <div class="qr-code-step-box">
-                        <span class="text-bold">Step : 2</span>Open the VCF File
+                        <span class="text-bold">Wedding photography</span>
                     </div>
                     <div class="qr-code-step-box">
-                        <span class="text-bold">Step : 3</span>Save To Contacts
+                        <span class="text-bold">Fashion photography</span>
                     </div>
                 </div>
             </div>
@@ -643,7 +636,7 @@
 <div id="save-me-popup-gallery" class="white-popup mfp-with-anim mfp-hide">
     <p class="popup-title"><i class="mdi mdi-contact-phone"></i>&nbsp;&nbsp;Gallery</p>
     <div class="popup-content">
-        <p class="save-me-title">Some of our masterpieces</p>
+        <p class="save-me-title"></p>
         <div class="row">
             <div class="col-md-1"></div>
             <div class="col-md-3">
@@ -699,8 +692,9 @@
 </div>
 </div>
 </div>
+
 <div id="mb-social-share-popup" class="white-popup mfp-with-anim mfp-hide">
-    <h4 align="center" style="padding-top: 50px;">Share your card through different platforms</h4>
+    <h4 align="center" style="padding-top: 50px;"></h4>
     <center>
         <section style="padding-left:30%;">
             <div id="share" class="a2a_kit a2a_kit_size_32 a2a_default_style">
